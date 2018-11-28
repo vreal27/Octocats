@@ -1,0 +1,98 @@
+html {box-sizing:border-box;}
+*,* :after, *:before {box-sizing:inherit;}
+
+li {
+	list-style: none;
+}
+
+.octodex {
+  list-style: none;
+  width: 1000px;
+  justify-content: space-around;
+  display: flex;
+  font-family: Arial, sans-serif;
+
+}
+
+.octocat {
+	border-bottom: solid;
+	border-width: thin;
+	border-color: lightgray;
+
+}
+
+.octocat img {
+	border-color: lightgray;
+	border-width: thin;
+	border-radius: 5px;
+	margin: 3px;
+
+}
+
+img {
+	width: 300px;
+	height: auto;
+	border: solid;
+}
+.image-footer, .image-caption {
+	display:flex;
+	align-items: center;
+}
+.image-caption{
+	justify-content: flex-end;
+
+}
+
+.image-footer {
+	justify-content: space-between;
+	
+}
+
+.authors {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+
+}
+
+
+.image-caption img{
+	width: 25px;
+	height: auto;
+	border: none;
+
+}
+
+.image-caption span {
+	color: gray;
+	font-weight: bolder;
+	font-size: 13px;
+	padding: 2px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+}
+
+.image-number::before {
+	content: "#";
+}
+
+.image-number {
+	color: lightgray;
+	font-weight: bold;
+}
+
+.octocat > a::after {
+	content:"";
+	width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid lightgray;
+    margin-left: 290px;
+}
