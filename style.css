@@ -3,7 +3,9 @@ html {box-sizing:border-box;}
 
 li {
 	list-style: none;
+
 }
+
 
 .octodex {
   list-style: none;
@@ -25,7 +27,8 @@ li {
 	border-color: lightgray;
 	border-width: thin;
 	border-radius: 5px;
-	margin: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
 
 }
 
